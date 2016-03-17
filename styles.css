@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+a:link { 
+ color: #666666; 
+ text-decoration: none; 
+      
+} 
+
+#button-signin {
+    color: white;
+    border: none;
+    
+}
+
+#button-search {
+    background-color: #dbdbdb;
+    color: #666666;
+    border: none;
+    display: inline-block;
+}
+
+
+#wrapper {
+    width=100%;
+}
+
+/* -------------------------- Header-Elemente -------------------------- */ 
+
+#header {
+    position:relative;
+    text-align:right;
+    padding-top:20px;
+    padding-right:20px;
+}
+
+.header-element {
+    display: inline-block;
+    margin: 5px;
+}
+
+
+/* -------------------------- Content-Elemente -------------------------- */ 
+
+#content {
+    text-align: center;
+}
+#logo {
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#search {
+    position: relative;
+    width: 50%;
+    margin: 0px auto;
+}
+
+#search-bar {
+    height: 50px;
+}
+
+#search-text {
+    width: 50%;
+}
+
+
+
+/* -------------------------- Footer-Elemente --------------------------- */ 
+
+#footer {
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #dbdbdb;
+    border-top: solid 1px; 
+    border-top-color: #ABABAB;
+
+}
+
+#footer-left {
+    position:relative;
+    top: 50%;
+    margin-top: -6px;
+    font-size: 12px;
+    float:left;
+    width: 50%;
+}
+
+#footer-right {
+    position:relative;
+    top: 50%;
+    margin-top: -6px;
+    font-size: 12px;
+    float:right;
+    width: 50%;
+    text-align:right;
+}
+
+.footer-left-element {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+
+.footer-right-element
+{
+    display: inline-block;
+    margin-right: 30px;
+}
